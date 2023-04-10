@@ -1,0 +1,33 @@
+[
+	{
+		"type": "shortAnswer",
+		"label": "A short answer question",
+		"id": 1
+	},
+	{
+		"type": "longAnswer",
+		"label": "A long answer question",
+		"id": 2
+	},
+	{
+		"type": "multipleChoice",
+		"label": "A multiple choice question",
+		"choices": [
+			"choice A",
+			"choice B",
+			"A really really long choice so that I can test the frontend"
+		],
+		"id": 2.5
+	},
+	{
+		"type": "checkbox",
+		"label": "A checkbox question with a bunch of choices I'm just going to make this longer to see if the line wrap woks",
+		"choices": [
+			"choice A",
+			"choice B",
+			"choice C",
+			"choice D"
+		],
+		"id": 3
+	}
+]
